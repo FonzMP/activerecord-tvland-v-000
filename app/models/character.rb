@@ -6,8 +6,8 @@ class Character < ActiveRecord::Base
     self.name + " always says: " + self.catchphrase
   end
 
-  def build_show(network)
-    
+  def build_show(show_name)
+
   end
 
 end
