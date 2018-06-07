@@ -8,7 +8,7 @@ class Character < ActiveRecord::Base
 
   def build_show(show_name)
     self.show = Show.new(show_name)
-    self.show.network_id = Network.build_network
+    # self.show.network_id = Network.build_network
   end
 
 end
