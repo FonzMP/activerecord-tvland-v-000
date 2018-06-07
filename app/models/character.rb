@@ -10,4 +10,6 @@ class Character < ActiveRecord::Base
     self.show = Show.new(show_name)
   end
 
+  def build_network
+
 end
